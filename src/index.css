@@ -5,14 +5,21 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light only;
+  color: #041C32;
+  background-color: #FFF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-prim: #E81C6F;
+  --color-sec: #ECB365;
+  --color-tert: #064663;
+  --color-back: #04293A;
 }
 
 .ibm-plex-mono-thin {
