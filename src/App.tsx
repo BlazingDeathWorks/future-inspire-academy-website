@@ -1,11 +1,7 @@
 import Navbar from "./components/Navbar.tsx";
 
 function App() {
-  return (
-    <>
-      <Navbar/>
-    </>
-  );
+  return <Navbar />;
 }
 
 export default App;
