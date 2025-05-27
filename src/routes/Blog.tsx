@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer.tsx";
 
 const Blog: React.FC = () => {
   return (
@@ -42,6 +43,7 @@ const Blog: React.FC = () => {
         </div>
       </main>
 
+      <Footer/>
       {/* <aside
         aria-label="Related articles"
         className="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800"
