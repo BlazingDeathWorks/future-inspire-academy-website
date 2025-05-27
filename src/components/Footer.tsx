@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800 left-0 bottom-0 w-full">
+    <footer className="p-4 bg-white sm:p-6 dark:bg-[#04293A] left-0 bottom-0 w-full border-t-2 border-t-[#064663]">
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Link to="/" className="flex items-center rtl:space-x-reverse">
+            <div className="flex items-center rtl:space-x-reverse">
               <span className="self-center text-xl font-medium whitespace-nowrap dark:text-white">
                 Future Inspire Academy
               </span>
-            </Link>
+            </div>
           </div>
           <div className="flex justify-end gap-x-12">
             <div>
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-[#064663] lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2025{" "}

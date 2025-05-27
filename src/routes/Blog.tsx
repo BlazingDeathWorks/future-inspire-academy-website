@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar.tsx";
 import Footer from "../components/Footer.tsx";
 
 const Blog: React.FC = () => {
   return (
     <>
-      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-[#041C32] antialiased">
+      <Navbar superColor="#04293A"/>
+      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-[#04293A] antialiased">
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">

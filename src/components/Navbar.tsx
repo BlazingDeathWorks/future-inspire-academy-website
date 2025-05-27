@@ -1,11 +1,17 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "../routes/Home.tsx";
-import Blog from "../routes/Blog.tsx";
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
-export default function Navbar() {
+interface NavbarProp {
+  superColor: string;
+}
+
+export default function Navbar({superColor} : NavbarProp) {
+  const [color, setColor] = useState(superColor);
+  useEffect(() => setColor(superColor), [superColor]);
+
   return (
-    <BrowserRouter>
-      <nav className="bg-[#041C32] border-gray-20 mt-4">
+    <div>
+      <nav className={`border-gray-20 pt-4 bg-[${color}]`}>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center rtl:space-x-reverse">
             <span className="self-center text-2xl font-medium whitespace-nowrap dark:text-[#E81C6F]">
@@ -37,11 +43,11 @@ export default function Navbar() {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 borderrounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-[#041C32]">
+            <ul className={"font-medium flex flex-col p-4 md:p-0 mt-4 borderrounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-[" + color + "]"}>
               <li>
                 <Link
                   to="/blog"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-[#E81C6F]  dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-[#E81C6F] dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
                 >
                   Blog
                 </Link>
@@ -93,10 +99,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
-    </BrowserRouter>
+    </div>
   );
 }
