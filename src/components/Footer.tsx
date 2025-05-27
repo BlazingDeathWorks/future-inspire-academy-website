@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
-export default function Footer() {
+interface FooterProp {
+  superColor: string;
+}
+
+export default function Footer({superColor} : FooterProp) {
+  const [color, setColor] = useState(superColor);
+  useEffect(() => setColor(superColor), [superColor]);
+
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-[#04293A] left-0 bottom-0 w-full border-t-2 border-t-[#064663]">
+    <footer className={`p-4 bg-white sm:p-6 dark:bg-[${color}] left-0 bottom-0 w-full border-t-2 border-t-[#064663]`}>
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
