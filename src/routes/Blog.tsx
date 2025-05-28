@@ -56,32 +56,34 @@ const Blog: React.FC = () => {
           </div>
           <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3">
             <BlogThumbnail
-              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694840079870-QD43D1EINW6MGS2J4109/image-asset.jpeg?format=2500w"
+              img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694840079870-QD43D1EINW6MGS2J4109/image-asset.jpeg?format=2500w"
               title="Fundraising: Selling Boba with Happy Lemon"
               description="About a month ago, I received an email from a local boba store offering to help fund my high school club."
             />
             <BlogThumbnail
-              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694757874791-FGGOMNWWTKISHI6NSXXN/image-asset.jpeg?format=2500w"
+              img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694757874791-FGGOMNWWTKISHI6NSXXN/image-asset.jpeg?format=2500w"
               title="Consistency: How to Make Popular Devlogs on Itch"
               description="Devlogs are essential for indie game developers to showcase their progress, engage with the community, and attract potential players and collaborators."
             />
             <BlogThumbnail
-              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693676881971-D76PB3BIZCJBGTDT6WKJ/image-asset.jpeg?format=2500w"
+              img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693676881971-D76PB3BIZCJBGTDT6WKJ/image-asset.jpeg?format=2500w"
               title="Insufficient: Why One-on-One Mentoring is Bad"
               description="One-on-One Mentoring might not be as effective as you think for game development."
             />
             <BlogThumbnail
-              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693639250039-V82SFMJT8OJ01EEP352N/image-asset.jpeg?format=2500w"
+              img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693639250039-V82SFMJT8OJ01EEP352N/image-asset.jpeg?format=2500w"
               title="Prize vs Limitation: Second Game Jam"
               description="For our second game jam, we are once again sponsored by Rosebud AI with their PixelVibe and Gamemaker AI platforms, but, this time, we’re hosting to test a theory."
             />
             <BlogThumbnail
-              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693624396593-5HGMIGO8AWRE9SIM9E52/image-asset.jpeg?format=2500w"
+              route="/blog/aligned-goals-blog"
+              img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693624396593-5HGMIGO8AWRE9SIM9E52/image-asset.jpeg?format=2500w"
               title="Aligned Goals: Partnership with Rosebud AI"
               description="After the end of the first Future Inspire Jam, FIA and Rosebud agreed on a long-term partnership to grow and improve each other."
             />
             <BlogThumbnail
-              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693624206936-57LL7JUMVBU4OIR661BS/image-asset.jpeg?format=2500w"
+              route="/blog/beginning-blog"
+              img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693624206936-57LL7JUMVBU4OIR661BS/image-asset.jpeg?format=2500w"
               title="New Beginning: Game Jams"
               description="Before the beginning of summer, we had a vision to engage the game development community and accomplish something no one else can: earn through learning."
             />
