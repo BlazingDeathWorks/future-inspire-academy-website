@@ -21,7 +21,7 @@ const Overscoping_Blog: React.FC = () => {
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16">
+            <div className="max-w-screen-lg mx-auto px-16 text-white">
               <p>
                 We are all ambitious people that want to do everything in a short amount of time. As game developers, we always have a new amazing idea in our head every day that we want to create. A lot of us quit though because it gets too tough: we lose motivation, get imposter syndrome, or realize that overscoping our project led to failure. But when you overscope, you learn to redesign your core mechanics and redefine what your project is.  
               </p>
