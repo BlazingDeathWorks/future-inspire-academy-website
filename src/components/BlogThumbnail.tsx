@@ -9,7 +9,7 @@ export default function BlogThumbnail({route, img, title, description} : BlogThu
   return (
     <>
       <div className="flex flex-col">
-        <a href="#">
+        <a href={route}>
           <img
             className="w-full max-w-max min-w-0 max-h-64 contain-content overflow-auto"
             src={img}
