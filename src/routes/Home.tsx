@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <section className="bg-[#041C32]">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-8 font-extrabold tracking-tight leading-none text-5xl dark:text-white">
+            <h1 className="max-w-2xl mb-8 font-extrabold tracking-tight leading-none text-6xl dark:text-white">
               Dream Game Development
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         <section className="">
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-full mb-8 lg:mb-16">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 About Us
               </h2>
               <div className="mt-8 space-y-8 grid grid-cols-2 md:space-y-0 gap-12 w-full max-w-full">
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
         <section className="">
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-full mb-8 lg:mb-16">
-              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Our Services
               </h2>
               <div className="mt-8 space-y-8 grid grid-cols-3 md:space-y-0 gap-12 w-full max-w-full">
@@ -141,7 +141,13 @@ const Home: React.FC = () => {
           </div>
         </section>
       </div>
-      <Footer superColor="#041C32" />
+      <div className="w-full border-t-2 border-t-amber-500 pb-20 bg-[#042232]">
+        <h2 className="text-5xl text-center tracking-tight font-extrabold mb-8 py-8">
+          Sponsors
+        </h2>
+        Poop
+      </div>
+      <Footer superColor="#041C32"/>
     </>
   );
 };
