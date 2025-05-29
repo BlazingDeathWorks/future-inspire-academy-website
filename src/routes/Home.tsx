@@ -14,7 +14,8 @@ const Home: React.FC = () => {
               Dream Game Development
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Realize your passion and become the game developer you have always wanted to become
+              Realize your passion and become the game developer you have always
+              wanted to become
             </p>
             <a
               href="https://itch.io/jam/fia-x-umodeler-mega-jam"
@@ -24,17 +25,40 @@ const Home: React.FC = () => {
             </a>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img
-              src={logo}
-              alt="logo"
-            ></img>
+            <img src={logo} alt="logo"></img>
           </div>
         </div>
       </section>
-      <div className="w-full border-t-2 border-t-amber-500 mt-20">
-        Hello World
+      <div className="w-full border-t-2 border-t-amber-500 mt-20 pb-20 bg-[#042232]">
+        <section className="">
+          <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div className="max-w-full mb-8 lg:mb-16">
+              <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                About Us
+              </h2>
+              <div className="mt-8 space-y-8 grid grid-cols-2 md:space-y-0 gap-12 w-full max-w-full">
+                <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center">
+                  Future Inspire Academy (FIA) is a non-profit organization, transformed from a high school club, that
+                  strives to teach students how to apply their coding skills to
+                  game development in a fun and efficient way. Our mission is to
+                  create a platform to reward members who start their game
+                  development journey early.
+                </p>
+                <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center">
+                  We then turned to hosting game development competitions, also known as game jams. We realized that our organization can not only impact our global members but also our national and international partners as we help promote their business, improve their products, and promote accessibility.
+                </p>
+              </div>
+              <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center mt-8 px-48">
+                From where we began to where we are now, we have expanded our goals to create a program that will give opportunities to aspiring game developers to enter the game development industry easier through grants, training, promotion, and exposure. We are aiming to reach greater heights to become an influential association—building careers for our members, hosting global events alongside massive corporate companies, and researching the potential of games beyond entertainment.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
-      <Footer superColor="#041C32" />
+      <div className="w-full border-t-2 border-t-amber-500">
+        Poop
+      </div>
+      <Footer superColor="#041C32"/>
     </>
   );
 };
