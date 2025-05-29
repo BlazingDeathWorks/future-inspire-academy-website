@@ -15,7 +15,7 @@ const Identity_Blog: React.FC = () => {
               </h1>
               <div className="flex justify-around">
                 <img
-                  className="container px-32"
+                  className="container px-32 w-full max-w-max min-w-0 max-h-[599px] contain-content overflow-auto"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1719971878594-KEJ2LJ90LD5DF1PNOGAR/image-asset.jpeg"
                   alt=""
                 ></img>

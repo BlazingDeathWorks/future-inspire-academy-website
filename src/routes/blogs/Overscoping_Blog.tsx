@@ -10,12 +10,15 @@ const Overscoping_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-[#ECB365] lg:mb-6 lg:text-5xl text-left">
+              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Overscoping: A Much Needed Failure for Success
               </h1>
+              <div className="mb-4 px-20 text-left text-[#ECB365]">
+                Jason Chan | 7/30/23
+              </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32"
+                  className="container px-32 w-full max-w-max min-w-0 max-h-[599px] contain-content overflow-auto"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1690741796635-219KNDKSA8FLYDXOKL5K/image-asset.jpeg"
                   alt=""
                 ></img>

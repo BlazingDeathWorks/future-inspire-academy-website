@@ -15,7 +15,7 @@ const Free_Play_Blog: React.FC = () => {
               </h1>
               <div className="flex justify-around">
                 <img
-                  className="container px-32"
+                  className="container px-32 w-full max-w-max min-w-0 max-h-[599px] contain-content overflow-auto"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1695495467166-UL8B0UCR7BGO00VGU6JP/image-asset.jpeg"
                   alt=""
                 ></img>
