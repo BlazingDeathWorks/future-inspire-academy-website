@@ -56,66 +56,79 @@ const Blog: React.FC = () => {
           </div>
           <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3">
             <BlogThumbnail
+              route="/blog/decisions-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1723995705712-JTZGL9OTXQ81HO91F7OR/unsplash-image-FanDtJGxREM.jpg?format=2500w"
               title="Decisions: Choosing the Right Partners and Approach to Collaboration "
               description="While our summer jams were not the most successful competitions, we learned quite a bit about how we would like to approach future jams."
             />
             <BlogThumbnail
+              route="/blog/identity-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1719971933114-J9PLITACQSHVMOTV1LNY/image-asset.jpeg?format=2500w"
               title="Identity: Rethinking How We Approach Game Jams, Partnerships, and Challenges"
               description="After a rough game jam experiment, we want to take a look at what went right, wrong, and what we can do in the future to improve."
             />
             <BlogThumbnail
+              route="/blog/rebuild-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1714291080602-417UM3USI9OBZFI5B2KG/image-asset.jpeg?format=2500w"
               title="Rebuild: Working Through Challenges"
               description="Over the past 4 months, we have faced many unexpected challenges that has halted our progress and ability to provide to the community, but we are persevering to revive our program and bring it back to where it once was."
             />
             <BlogThumbnail
+              route="/blog/reflection-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1702528811630-871EOUWCRBTYP51VSBQU/image-asset.jpeg?format=2500w"
               title="Reflection: Taking a Step Back to Regroup"
               description="After expediting the growth of the organization in the past couple of months, we’re taking a step back to catch our breaths, analyze some mistakes, and plan new services for next year."
             />
             <BlogThumbnail
+              route="/blog/third-jam-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1698556254965-4ODQWR6UOW3PFQMG2YH4/image-asset.jpeg?format=2500w"
               title="Prove: Our Grand Push for Future Inspire Jam #3"
               description="We’ve gathered and united our sponsors together over the past month and we’re ready to prove to the world what we are capable of as a non-profit organization."
             />
             <BlogThumbnail
+              route="/blog/free-play-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1695496581663-SN3P5EUEGWAIOB8RZNSD/image-asset.jpeg?format=2500w"
               title="Free Play: Why Second Game Jam was a Success"
               description="Our organization took a chance at unrestricted game jams with teams, and it worked!"
             />
             <BlogThumbnail
+              route="/blog/validation-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694905530372-96RGJG7MRTQZTGXSYX74/image-asset.jpeg?format=2500w"
               title="Validation: Partnership with UModeler"
               description="After our first partnership with a Unity Verified Asset creator, we realized the importance of reputable partners that can provide validation and credibility for our organization."
             />
             <BlogThumbnail
+              route="/blog/new-competition-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694846144866-GWE9DEIBQ3R4TQ2XE3HM/image-asset.jpeg?format=2500w"
               title="New Competition: Launching Partnership with Striked"
               description="Through browsing other competition and company sponsors, I found an interesting game publishing platform called Striked."
             />
             <BlogThumbnail
+              route="/blog/hot-reload-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694845236465-9OFU3V5KR47507DQ16KR/image-asset.jpeg?format=2500w"
               title="New Market: Partnering with Hot Reload"
               description="After coming back from a summer trip and talking to a community of game developers, a friend of mine suggested that I try to seek sponsorships from a new type of market."
             />
             <BlogThumbnail
+              route="/blog/fundraising-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694840079870-QD43D1EINW6MGS2J4109/image-asset.jpeg?format=2500w"
               title="Fundraising: Selling Boba with Happy Lemon"
               description="About a month ago, I received an email from a local boba store offering to help fund my high school club."
             />
             <BlogThumbnail
+              route="/blog/itch-dev-log-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694757874791-FGGOMNWWTKISHI6NSXXN/image-asset.jpeg?format=2500w"
               title="Consistency: How to Make Popular Devlogs on Itch"
               description="Devlogs are essential for indie game developers to showcase their progress, engage with the community, and attract potential players and collaborators."
             />
             <BlogThumbnail
+              route="/blog/insufficient-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693676881971-D76PB3BIZCJBGTDT6WKJ/image-asset.jpeg?format=2500w"
               title="Insufficient: Why One-on-One Mentoring is Bad"
               description="One-on-One Mentoring might not be as effective as you think for game development."
             />
             <BlogThumbnail
+              route="/blog/second-game-jam-blog"
               img="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693639250039-V82SFMJT8OJ01EEP352N/image-asset.jpeg?format=2500w"
               title="Prize vs Limitation: Second Game Jam"
               description="For our second game jam, we are once again sponsored by Rosebud AI with their PixelVibe and Gamemaker AI platforms, but, this time, we’re hosting to test a theory."
