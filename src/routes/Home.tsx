@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar.tsx";
 import Footer from "../components/Footer.tsx";
-import logo from "../../public/logo.png";
+import logo from "../../public/logo.svg";
 
 const Home: React.FC = () => {
   return (
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
                   development journey early.
                 </p>
                 <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center">
-                  We then turned to hosting game development competitions, also known as game jams. We realized that our organization can not only impact our global members but also our national and international partners as we help promote their business, improve their products, and promote accessibility.
+                  We turned to hosting game development competitions, also known as game jams. We realized that our organization can not only impact our global members but also our national and international partners as we help promote their business, improve their products, and promote accessibility.
                 </p>
               </div>
               <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center mt-8 px-48">
