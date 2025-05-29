@@ -13,6 +13,9 @@ const Beginning_Blog: React.FC = () => {
               <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 New Beginning: Game Jams
               </h1>
+              <div className="mb-4 px-20 text-left text-[#ECB365]">
+                Jason Chan | 9/1/23
+              </div>
               <div className="flex justify-around">
                 <img
                   className="container px-32 w-full max-w-max min-w-0 max-h-[599px] contain-content overflow-auto"
