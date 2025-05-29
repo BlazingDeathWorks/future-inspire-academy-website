@@ -11,7 +11,7 @@ export default function Navbar({superColor} : NavbarProp) {
 
   return (
     <div>
-      <nav className={`border-gray-20 pt-4 bg-[${color}]`}>
+      <nav className={`border-gray-20 pt-4`} style={{backgroundColor: color}}>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center rtl:space-x-reverse">
             <span className="self-center text-2xl font-medium whitespace-nowrap dark:text-[#E81C6F]">
@@ -43,7 +43,7 @@ export default function Navbar({superColor} : NavbarProp) {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className={"font-medium flex flex-col p-4 md:p-0 mt-4 borderrounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-[" + color + "]"}>
+            <ul className={"font-medium flex flex-col p-4 md:p-0 mt-4 borderrounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"} style={{backgroundColor: color}}>
               <li>
                 <Link
                   to="/blog"

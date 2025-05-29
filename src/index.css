@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 :root {
   font-family: "IBM Plex Mono", monospace;
@@ -16,10 +17,11 @@
 }
 
 @theme {
+  --color-back2: #04293A;
   --color-prim: #E81C6F;
   --color-sec: #ECB365;
   --color-tert: #064663;
-  --color-back: #04293A;
+  --color-back: #041C32;
 }
 
 .ibm-plex-mono-thin {

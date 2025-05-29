@@ -9,7 +9,7 @@ export default function Footer({superColor} : FooterProp) {
   useEffect(() => setColor(superColor), [superColor]);
 
   return (
-    <footer className={`p-4 sm:p-6 bg-[${color}] left-0 bottom-0 w-full border-t-2 border-t-[#064663]`}>
+    <footer className={`p-4 sm:p-6 left-0 bottom-0 w-full border-t-2 border-t-[#064663]`} style={{backgroundColor: color}}>
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
