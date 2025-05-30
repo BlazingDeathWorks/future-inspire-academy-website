@@ -68,7 +68,7 @@ const Home: React.FC = () => {
         </section>
       </div>
       <div className="w-full border-t-2 border-t-amber-500">
-        <section className="">
+        <section className="bg-back">
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-full mb-8 lg:mb-16">
               <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -145,9 +145,139 @@ const Home: React.FC = () => {
         <h2 className="text-5xl text-center tracking-tight font-extrabold mb-8 py-8">
           Sponsors
         </h2>
-        Poop
+        <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center px-[580px]">
+          “We enjoyed collaborating with FIA during our game jam, where 16
+          fantastic games were created using Rosebud’s AI asset generation tool.
+          We wish FIA all the best on their journey ahead!”
+        </p>
+        <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center px-[580px]">
+          -Rosebud AI
+        </p>
+        <div>
+          <section className="">
+            <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+              <dl className="grid max-w-screen-lg mx-auto text-gray-900 sm:grid-cols-5 dark:text-white">
+                <div className="flex flex-col items-center justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
+                    $6000+
+                  </dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                    raised
+                  </dd>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
+                    550+
+                  </dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                    joins
+                  </dd>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
+                    100+
+                  </dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                    submissions
+                  </dd>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
+                    25000+
+                  </dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                    visits
+                  </dd>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
+                    10+
+                  </dt>
+                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                    collaborations
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </section>
+        </div>
+        <div className="flex justify-center">
+          <a href="https://unity.umodeler.com/">
+            <img
+              className="min-w-0 max-h-44 contain-content py-8"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/cb858679-3635-4f2b-b2bd-7fc0c39eeba8/um1_color_1.png"
+              alt=""
+            ></img>
+          </a>
+        </div>
+        <div className="flex justify-center">
+          <a href="https://kronnect.com/">
+            <img
+              className="min-w-0 max-h-52 contain-content py-8"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/63bf2ca5-e9bb-4358-9b5b-780907ecfe2b/kronnect.png"
+              alt=""
+            ></img>
+          </a>
+        </div>
+        <div className="flex justify-center">
+          <a href="https://striked.gg/">
+            <img
+              className="min-w-0 max-h-52 contain-content"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/bbea16e3-eee6-4071-9861-ad942e45a27e/Logo_white.png"
+              alt=""
+            ></img>
+          </a>
+        </div>
+        <div className="flex justify-center gap-24 mt-8">
+          <a href="https://rosebud.ai/">
+            <img
+              className="max-w-max min-w-0 max-h-64 contain-content"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/66e5bcfd-a40f-4c01-b050-dae08573148d/rosebudailogo.png"
+              alt=""
+            ></img>
+          </a>
+          <a href="https://hotreload.net/">
+            <img
+              className="max-w-max min-w-0 max-h-64 contain-content"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/72bbb7f2-fc3e-4bb9-8c46-f9d348f194ca/Logo_HotReload+%28White%29.png"
+              alt=""
+            ></img>
+          </a>
+        </div>
+        <div className="flex justify-center items-center flex-col">
+          <a href="https://assetstore.unity.com/publishers/80066">
+            <img
+              className="min-w-0 max-h-48 contain-content"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/9ecd7958-8d91-4038-bb2f-071231bb9352/logotype%5B7694%5D.png"
+              alt=""
+            ></img>
+          </a>
+          <a href="https://www.pixelcrushers.com/">
+            <img
+              className="min-w-0 max-h-48 contain-content"
+              src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/2f0f5d05-13d6-4171-976f-810b566bac71/PixelCrushers_2ColorLogo_White%5B7669%5D.png"
+              alt=""
+            ></img>
+          </a>
+          <div className="flex justify-center gap-14 mt-8">
+            <a href="https://bewilderedstudios.com/">
+              <img
+                className="min-w-0 max-h-48 contain-content"
+                src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/0849c5d3-f758-4645-b661-143f62a2c850/bewildered_studios_logo-no_background-large.png"
+                alt=""
+              ></img>
+            </a>
+            <a href="https://distantlands.wixsite.com/distantlands">
+              <img
+                className="min-w-0 max-h-48 contain-content"
+                src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/495184b7-fad8-4bdf-b6ed-f5fa104ea482/Distant+Lands+Logo.png"
+                alt=""
+              ></img>
+            </a>
+          </div>
+        </div>
       </div>
-      <Footer superColor="#041C32"/>
+      <Footer superColor="#041C32" />
     </>
   );
 };
