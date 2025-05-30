@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 interface FooterProp {
   superColor: string;
@@ -41,9 +42,9 @@ export default function Footer({superColor} : FooterProp) {
               </h2>
               <ul className=" text-gray-400">
                 <li className="mb-4">
-                  <a href="/blog">
+                  <Link to="/blog">
                     Blog
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
