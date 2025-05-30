@@ -18,7 +18,7 @@ const Aligned_Goals_Blog: React.FC = () => {
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-w-max min-w-0 max-h-[599px] contain-content overflow-auto"
+                  className="container px-32 w-full max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693624396593-5HGMIGO8AWRE9SIM9E52/image-asset.jpeg?format=2500w"
                   alt=""
                 ></img>
