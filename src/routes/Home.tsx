@@ -141,7 +141,7 @@ const Home: React.FC = () => {
           </div>
         </section>
       </div>
-      <div className="w-full border-t-2 border-t-amber-500 pb-20 bg-[#042232]">
+      <div className="w-full border-t-2 border-t-amber-500 pb-20 bg-[#042232] py-8">
         <h2 className="text-5xl text-center tracking-tight font-extrabold mb-8 py-8">
           Sponsors
         </h2>
