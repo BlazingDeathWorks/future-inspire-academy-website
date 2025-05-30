@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar.tsx";
-import Footer from "../components/Footer.tsx";
+import Navbar from "../../components/Navbar.tsx";
+import Footer from "../../components/Footer.tsx";
 
 const Overscoping_Blog: React.FC = () => {
   return (

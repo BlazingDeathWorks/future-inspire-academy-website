@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home.tsx";
 import Blog from "./routes/Blog.tsx";
-import Overscoping_Blog from "./routes/Overscoping_Blog.tsx";
+import Overscoping_Blog from "./routes/blogs/Overscoping_Blog.tsx";
 import Beginning_Blog from "./routes/blogs/Beginning_Blog.tsx";
 import Aligned_Goals_Blog from "./routes/blogs/Aligned_Goals_Blog.tsx";
 import Second_Game_Jam_Blog from "./routes/blogs/Second_Game_Jam_Blog.tsx";
