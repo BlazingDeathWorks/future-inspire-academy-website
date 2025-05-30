@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 interface BlogThumbnailProp {
-  route?: string;
+  route: string;
   img: string;
   title?: string;
   description?: string;
@@ -9,16 +11,16 @@ export default function BlogThumbnail({route, img, title, description} : BlogThu
   return (
     <>
       <div className="flex flex-col">
-        <a href={route}>
+        <Link to={route}>
           <img
             className="w-full max-w-max min-w-0 max-h-64 contain-content overflow-auto"
             src={img}
             alt=""
           ></img>
-        </a>
+        </Link>
         <div className="py-5 px-1">
           <h3 className="text-xl font-bold tracking-tight text-white">
-            <a href={route}>{title}</a>
+            <Link to={route}>{title}</Link>
           </h3>
           <p className="mt-3 mb-4 font-light text-gray-400">
             {description}
