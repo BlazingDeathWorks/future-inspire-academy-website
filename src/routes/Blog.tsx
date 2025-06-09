@@ -17,17 +17,17 @@ const Blog: React.FC = () => {
               className=""
             ></img>
           </div>
-          <div className="mr-auto place-self-center lg:col-span-5 px-12">
-            <h1 className="max-w-2xl mb-5 text-4xl font-extrabold tracking-tight leading-none text-[#ECB365]">
+          <div className="mr-auto place-self-center lg:col-span-5 px-0 sm:px-12 sm:flex-none flex flex-col">
+            <h1 className="max-w-2xl mb-5 text-3xl sm:text-4xl sm:text-left text-center font-extrabold tracking-tight leading-none text-[#ECB365]">
               Overscoping: A Much Needed Failure for Success
             </h1>
-            <p className="max-w-2xl mb-4 font-light lg:mb-8 md:text-lg lg:text-xl text-[#ECB365]">
+            <p className="max-w-2xl mb-4 font-light lg:mb-8 md:text-lg lg:text-xl text-[#ECB365] sm:text-left text-center">
               We are all ambitious people that want to do everything in a short
               amount of time.
             </p>
             <a
               href="/blog/overscoping-blog"
-              className="px-1 inline-flex items-start justify-start py-3 mr-3 text-base font-medium text-left text-amber-500 rounded-lg bg-primary-700 hover:bg-primary-800"
+              className="sm:px-1 inline-flex items-start justify-center py-3 mr-3 text-base font-medium text-left text-amber-500 rounded-lg bg-primary-700 hover:bg-primary-800"
             >
               Read more
               <svg
