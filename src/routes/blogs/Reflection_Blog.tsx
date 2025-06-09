@@ -10,21 +10,21 @@ const Reflection_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Reflection: Taking a Step Back to Regroup
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 12/13/23
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1702435382758-Y8A3B1MMJG9WUGN68TH9/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 After expediting the growth of the organization in the past couple of months, we’re taking a step back to catch our breaths, analyze some mistakes, and plan new services for next year. Sponsorships are also at a halt at the moment, and we won’t be gaining much funding for the rest of the year, so we are carefully planning our next move. You can say that the game jam theme was not the only thing “not going according to plan.” School restrictions prevent us from easily hosting fundraisers for extra funds and a busy personal schedule prevented me from pitching to some important companies that I now can lose opportunities to connect with. It’s not just a busy schedule but an obvious burnout from doing so much in the past months, gathering sponsors and completely reframing our program in ways I would have never imagined prior to this summer. In this post, we’ll conclude our final thoughts about the third game jam and talk about everything that’s upcoming for Future Inspire Academy. 
               </p>

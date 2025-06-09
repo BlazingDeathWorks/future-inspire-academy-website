@@ -10,21 +10,21 @@ const Insufficient_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Fundraising: Selling Boba with Happy Lemon
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 9/15/23
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694840050760-RRNULVKBVCH58HN7B89J/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 About a month ago, I received an email from a local boba store offering to help fund my high school club. Happy Lemon is a boba store that has over 1000 stores located around the world and a couple that are located near me. One reason why I started FIA was to reach a greater community of game developers rather than settling for a very small group in my high school. Because I have integrated my organization in my high school club, in other words all high school club members become members of the organization, I quickly reached out to Happy Lemon to accept their request but redirected the receiver to not be the president of my Game Development club but the founder of Future Inspire Academy. 
               </p>

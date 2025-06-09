@@ -10,21 +10,21 @@ const Reflection_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Rebuild: Working Through Challenges
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 4/28/24
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1714291047018-C7KMX7UT4AVB6RXPA3JR/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 Over the past 4 months, we have faced many unexpected challenges that has halted our progress and ability to provide to the community, but we are persevering to revive our program and bring it back to where it once was. At the end of December, we realized that my Discord account was compromised, and our moderator permissions were disabled. This made controlling our server impossible, as we feared any action taken immediately could be responded by the hacker with harm to our members. We decided to remain passive for at least a month while trying to regain the account by contacting Discord. Unfortunately, Discord support could not help us in a timely manner; as a result, my account was later deleted, and we now sit with an ownerless server. 
               </p>

@@ -10,21 +10,21 @@ const New_Competition_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 New Competition: Launching Partnership with Striked
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 9/15/23
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694846112968-GMTKS3Y407N8GHGLYF9Y/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 Through browsing other competition and company sponsors, I found an interesting game publishing platform called Striked. Around the same time as when I officially announced Future Inspire Jam #2, I noticed advertisements on various game development discord servers for a game jam hosted by Striked with its bright rocket logo. They were offering a huge prize for their own game jam, so, when I saw them once again as a sponsor of a game engine, I decided to dig a little deeper into how a potential partnership can work between us. I joined their discord server, asked a moderator for directions, and contacted the manager of Striked through direct messages.
               </p>

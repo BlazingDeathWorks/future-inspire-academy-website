@@ -10,21 +10,21 @@ const Insufficient_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Insufficient: Why One-on-One Mentoring is Bad
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 9/2/23
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1693676911046-EYIQTPLF3DA72E9B6STK/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 One-on-One Mentoring might not be as effective as you think for game development. In the past, our non-profit mentored aspiring game developers, and we found that, a lot of the times, the results are no different from before we mentored them: no motivation that leads to no progress. This is because they expect the mentor to teach them all they need to know to build their games instead of watching tutorials on YouTube since they fear that they’d get stuck in what we like to call “tutorial hell.” The regular way of mentoring people makes them reliant on the mentor and doesn’t help motivate them to learn and improve themselves. Our non-profit organization is here to remind them that the results come from their efforts, not the mentor’s. What mentoring should be, for game development, is creating a curated plan that’ll guide them to becoming a self-taught and independent developer. They can ask you for advice, but they should be the one to take initiative for their own goals.
               </p>

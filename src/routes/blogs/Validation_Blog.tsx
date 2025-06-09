@@ -10,21 +10,21 @@ const Validation_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Validation: Partnership with UModeler
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 9/16/23
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694905399872-6C3NJHQPGP38W9LSXRED/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 After our first partnership with a Unity Verified Asset creator, we realized the importance of reputable partners that can provide validation and credibility for our organization. Until very recently with all the drama revolving around Unity, we wanted to receive support from a group of Unity Verified Asset creators that will one day lead to a long-term partnership with Unity. We believed that gaining support from a community of developers who Unity is in close contact with would allow us a chance to rise to the next level. This article will first highlight the importance of UModeler and afterwards discuss how current events have shifted our plans.
               </p>

@@ -10,21 +10,21 @@ const Hot_Reload_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 New Market: Partnering with Hot Reload
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 9/15/23
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1694845187074-86DFVQIW163HIUTXDCU0/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 After coming back from a summer trip and talking to a community of game developers, a friend of mine suggested that I try to seek sponsorships from a new type of market. At the time, FIA only partnered with Rosebud AI and sought partnerships from other game development companies that related to programming. What I didn’t realize was that there was a huge untapped market that would love to sponsor my game jams for promotion of their products: I am referring to the Unity Asset Store. The Unity Asset Store sells all the tools developers will need to create successful games in Unity. From art, sound, frameworks, and development tools, the Asset Store sells something for any type of developer. As Asset Creators constantly need developers to buy their asset and make a profit, FIA can provide promotional services in exchange for free copies of their asset to gift to winners of our community game jams. 
               </p>

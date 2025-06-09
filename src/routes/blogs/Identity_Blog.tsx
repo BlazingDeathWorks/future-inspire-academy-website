@@ -10,21 +10,21 @@ const Identity_Blog: React.FC = () => {
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              <h1 className="px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
+              <h1 className="sm:px-20 mb-4 text-3xl font-extrabold leading-tight text-amber-500 lg:text-5xl text-left">
                 Identity: Rethinking How We Approach Game Jams, Partnerships, and Challenges
               </h1>
-              <div className="mb-4 px-20 text-left text-[#ECB365]">
+              <div className="mb-4 sm:px-20 text-left text-[#ECB365]">
                 Jason Chan | 7/2/24
               </div>
               <div className="flex justify-around">
                 <img
-                  className="container px-32 w-full max-h-[599px] contain-content"
+                  className="container sm:px-32 w-full sm:max-h-[599px] contain-content"
                   src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/1719971878594-KEJ2LJ90LD5DF1PNOGAR/image-asset.jpeg"
                   alt=""
                 ></img>
               </div>
             </header>
-            <div className="max-w-screen-lg mx-auto px-16 text-white">
+            <div className="max-w-screen-lg mx-auto sm:text-left text-center sm:px-16 text-white">
               <p>
                 After a rough game jam experiment, we want to take a look at what went right, wrong, and what we can do in the future to improve. We launched Future Inspire Jam #5 with high hopes, collaborating with UModeler to host our first exclusive jam with them. The basic gimmick challenged participants to utilize Unity engine specific asset, UModeler X, to create their base 3D models for their game. We believed by creating this exclusive and promoting our competition mainly to UModeler’s discord server and audience, we can regain all of the members we once lost in the hacking incident. It became very clear, however, that we would not be achieving that ambitious goal this time around. Although we understood, from past experiences, that our join count won’t skyrocket until the last couple of days before the competition starts, we found ourselves with significantly less members going into that crucial joining period. As we explore what happens in this article, we will realize that our shortcomings are not a result of partnering with UModeler but almost everything else. If readers just want to know the changes we are planning to make, skip to the bottom with all of the bullet points.
               </p>
