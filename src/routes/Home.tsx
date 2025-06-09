@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <section className="bg-[#041C32]">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-8 font-extrabold tracking-tight leading-none text-6xl dark:text-white">
+            <h1 className="max-w-2xl mb-8 font-extrabold tracking-tight leading-none md:text-6xl text-3xl dark:text-white">
               Dream Game Development
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
               <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 About Us
               </h2>
-              <div className="mt-8 space-y-8 grid grid-cols-2 md:space-y-0 gap-12 w-full max-w-full">
+              <div className="mt-8 space-y-8 md:grid grid-cols-2 md:space-y-0 gap-12 w-full max-w-full">
                 <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center">
                   Future Inspire Academy (FIA) is a non-profit organization,
                   transformed from a high school club, that strives to teach
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
                   improve their products, and promote accessibility.
                 </p>
               </div>
-              <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center mt-8 px-48">
+              <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center mt-8 md:px-48">
                 From where we began to where we are now, we have expanded our
                 goals to create a program that will give opportunities to
                 aspiring game developers to enter the game development industry
@@ -74,7 +74,7 @@ const Home: React.FC = () => {
               <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Our Services
               </h2>
-              <div className="mt-8 space-y-8 grid grid-cols-3 md:space-y-0 gap-12 w-full max-w-full">
+              <div className="mt-8 space-y-8 md:grid grid-cols-3 md:space-y-0 gap-12 w-full max-w-full">
                 <div className="text-center">
                   <h2 className="text-3xl mb-4">
                     <mark className="bg-prim text-sec font-extrabold">
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex justify-center space-y-8 gap-12 mt-8">
+              <div className="md:flex justify-center space-y-8 gap-12 mt-8">
                 <div className="text-center">
                   <h2 className="text-3xl mb-4">
                     <mark className="bg-prim text-sec font-extrabold">
@@ -145,12 +145,12 @@ const Home: React.FC = () => {
         <h2 className="text-5xl text-center tracking-tight font-extrabold mb-8 py-8">
           Sponsors
         </h2>
-        <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center px-[580px]">
+        <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center px-4 2xl:px-[580px]">
           “We enjoyed collaborating with FIA during our game jam, where 16
           fantastic games were created using Rosebud’s AI asset generation tool.
           We wish FIA all the best on their journey ahead!”
         </p>
-        <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center px-[580px]">
+        <p className="text-gray-500 sm:text-xl dark:text-gray-400 text-center px-4 2xl:px-[580px]">
           -Rosebud AI
         </p>
         <div>
@@ -161,7 +161,7 @@ const Home: React.FC = () => {
                   <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
                     $6000+
                   </dt>
-                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                  <dd className="font-light text-gray-500 dark:text-gray-400 sm:mb-0 mb-4">
                     raised
                   </dd>
                 </div>
@@ -169,7 +169,7 @@ const Home: React.FC = () => {
                   <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
                     550+
                   </dt>
-                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                  <dd className="font-light text-gray-500 dark:text-gray-400 sm:mb-0 mb-4">
                     joins
                   </dd>
                 </div>
@@ -177,7 +177,7 @@ const Home: React.FC = () => {
                   <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
                     100+
                   </dt>
-                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                  <dd className="font-light text-gray-500 dark:text-gray-400 sm:mb-0 mb-4">
                     submissions
                   </dd>
                 </div>
@@ -185,7 +185,7 @@ const Home: React.FC = () => {
                   <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
                     25000+
                   </dt>
-                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                  <dd className="font-light text-gray-500 dark:text-gray-400 sm:mb-0 mb-4">
                     visits
                   </dd>
                 </div>
@@ -193,7 +193,7 @@ const Home: React.FC = () => {
                   <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
                     10+
                   </dt>
-                  <dd className="font-light text-gray-500 dark:text-gray-400">
+                  <dd className="font-light text-gray-500 dark:text-gray-400 sm:mb-0 mb-4">
                     collaborations
                   </dd>
                 </div>
@@ -204,7 +204,7 @@ const Home: React.FC = () => {
         <div className="flex justify-center">
           <a href="https://unity.umodeler.com/">
             <img
-              className="min-w-0 max-h-44 contain-content py-8"
+              className="min-w-0 max-h-44 contain-content py-8 px-8"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/cb858679-3635-4f2b-b2bd-7fc0c39eeba8/um1_color_1.png"
               alt=""
             ></img>
@@ -213,7 +213,7 @@ const Home: React.FC = () => {
         <div className="flex justify-center">
           <a href="https://kronnect.com/">
             <img
-              className="min-w-0 max-h-52 contain-content py-8"
+              className="min-w-0 max-h-52 contain-content py-8 px-8"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/63bf2ca5-e9bb-4358-9b5b-780907ecfe2b/kronnect.png"
               alt=""
             ></img>
@@ -222,23 +222,23 @@ const Home: React.FC = () => {
         <div className="flex justify-center">
           <a href="https://striked.gg/">
             <img
-              className="min-w-0 max-h-52 contain-content"
+              className="min-w-0 max-h-52 contain-content px-8"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/bbea16e3-eee6-4071-9861-ad942e45a27e/Logo_white.png"
               alt=""
             ></img>
           </a>
         </div>
-        <div className="flex justify-center gap-24 mt-8">
+        <div className="flex flex-col items-center sm:flex-row sm:justify-center gap-x-24 mt-8">
           <a href="https://rosebud.ai/">
             <img
-              className="max-w-max min-w-0 max-h-64 contain-content"
+              className="max-w-max min-w-0 max-h-52 md:max-h-64 contain-content"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/66e5bcfd-a40f-4c01-b050-dae08573148d/rosebudailogo.png"
               alt=""
             ></img>
           </a>
           <a href="https://hotreload.net/">
             <img
-              className="max-w-max min-w-0 max-h-64 contain-content"
+              className="max-w-max min-w-0 max-h-52 md:max-h-64 contain-content"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/72bbb7f2-fc3e-4bb9-8c46-f9d348f194ca/Logo_HotReload+%28White%29.png"
               alt=""
             ></img>
@@ -247,19 +247,19 @@ const Home: React.FC = () => {
         <div className="flex justify-center items-center flex-col">
           <a href="https://assetstore.unity.com/publishers/80066">
             <img
-              className="min-w-0 max-h-48 contain-content"
+              className="min-w-0 max-h-48 contain-content px-8"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/9ecd7958-8d91-4038-bb2f-071231bb9352/logotype%5B7694%5D.png"
               alt=""
             ></img>
           </a>
           <a href="https://www.pixelcrushers.com/">
             <img
-              className="min-w-0 max-h-48 contain-content"
+              className="min-w-0 max-h-48 contain-content px-8"
               src="https://images.squarespace-cdn.com/content/v1/6464755548734907f7218c40/2f0f5d05-13d6-4171-976f-810b566bac71/PixelCrushers_2ColorLogo_White%5B7669%5D.png"
               alt=""
             ></img>
           </a>
-          <div className="flex justify-center gap-14 mt-8">
+          <div className="flex justify-center gap-0 md:gap-14 mt-8 mx-8 sm:mx-0">
             <a href="https://bewilderedstudios.com/">
               <img
                 className="min-w-0 max-h-48 contain-content"
