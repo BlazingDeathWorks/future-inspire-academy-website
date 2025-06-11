@@ -6,7 +6,7 @@ const Second_Game_Jam_Blog: React.FC = () => {
   return (
     <>
       <Navbar superColor="#04293A"/>
-      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-[#04293A] antialiased">
+      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-[#04293A] antialiased">
         <div className="flex justify-center mx-auto max-w-screen-xl ">
           <article className="mx-auto px-16 w-full max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
