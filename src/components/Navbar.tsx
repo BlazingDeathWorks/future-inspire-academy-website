@@ -47,7 +47,7 @@ export default function Navbar({superColor} : NavbarProp) {
               <li>
                 <Link
                   to="/blog"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-[#E81C6F] dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 text-[#E81C6F] dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
                 >
                   Blog
                 </Link>
@@ -59,7 +59,7 @@ export default function Navbar({superColor} : NavbarProp) {
                     className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#ECB365] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     <svg
-                      className="w-6 h-6 dark:text-[#E81C6F]"
+                      className="w-6 h-6 text-[#E81C6F]"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -77,7 +77,7 @@ export default function Navbar({superColor} : NavbarProp) {
                     className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-[#ECB365] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     <svg
-                      className="w-6 h-6 dark:text-[#E81C6F]"
+                      className="w-6 h-6 text-[#E81C6F]"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
