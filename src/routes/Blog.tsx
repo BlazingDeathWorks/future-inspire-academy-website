@@ -50,7 +50,7 @@ const Blog: React.FC = () => {
       <section className="bg-[#041C32]">
         <div className=" px-4 mx-auto max-w-screen-xl">
           <div className="max-w-screen-sm text-left mb-8">
-            <h2 className="text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2 className="text-2xl tracking-tight font-extrabold dark:text-white">
               Stories
             </h2>
           </div>
