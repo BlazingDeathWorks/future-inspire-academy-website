@@ -27,7 +27,7 @@ const Blog: React.FC = () => {
             </p>
             <a
               href="/blog/overscoping-blog"
-              className="sm:px-1 inline-flex items-start justify-center py-3 mr-3 text-base font-medium text-left text-amber-500 rounded-lg bg-primary-700 hover:bg-primary-800"
+              className="sm:px-1 inline-flex items-start justify-center sm:justify-start py-3 mr-3 text-base font-medium text-left text-amber-500 rounded-lg bg-primary-700 hover:bg-primary-800"
             >
               Read more
               <svg
