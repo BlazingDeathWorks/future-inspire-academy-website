@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         <section className="">
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-full mb-8 lg:mb-16">
-              <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <h2 className="mb-8 text-5xl tracking-tight font-extrabold dark:text-white">
                 About Us
               </h2>
               <div className="mt-8 space-y-8 md:grid grid-cols-2 md:space-y-0 gap-12 w-full max-w-full">
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
         <section className="bg-back">
           <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-full mb-8 lg:mb-16">
-              <h2 className="mb-8 text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <h2 className="mb-8 text-5xl tracking-tight font-extrabold dark:text-white">
                 Our Services
               </h2>
               <div className="mt-8 space-y-8 md:grid grid-cols-3 md:space-y-0 gap-12 w-full max-w-full">
@@ -156,7 +156,7 @@ const Home: React.FC = () => {
         <div>
           <section className="">
             <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-              <dl className="grid max-w-screen-lg mx-auto text-gray-900 sm:grid-cols-5 dark:text-white">
+              <dl className="grid max-w-screen-lg mx-auto sm:grid-cols-5 dark:text-white">
                 <div className="flex flex-col items-center justify-center">
                   <dt className="mb-2 text-3xl md:text-4xl font-extrabold">
                     $6000+
