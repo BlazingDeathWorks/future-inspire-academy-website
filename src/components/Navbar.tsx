@@ -14,7 +14,7 @@ export default function Navbar({superColor} : NavbarProp) {
       <nav className={`border-gray-20 pt-4`} style={{backgroundColor: color}}>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center rtl:space-x-reverse">
-            <span className="self-center text-2xl font-medium whitespace-nowrap dark:text-[#E81C6F]">
+            <span className="self-center text-2xl font-medium whitespace-nowrap text-[#E81C6F]">
               Future Inspire Academy
             </span>
           </Link>
